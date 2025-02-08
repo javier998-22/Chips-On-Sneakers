@@ -13,7 +13,7 @@ export const Principal = () => {
             <NavCategories />
             <div className="principal-content">
                 <Carousel />
-                <ProductsMain />
+                <ProductsMain className="PM" />
                 <NuevasDestacadas />
             </div>
         </div>

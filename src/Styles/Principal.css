@@ -1,0 +1,11 @@
+.principal-content {
+    width: 1700px; /* Ancho fijo */
+    margin: 0 auto; /* Centrado horizontal */
+    display: flex; /* Habilita Flexbox */
+    flex-direction: column; /* Apila los elementos verticalmente */
+    align-items: center; /* Centra horizontalmente los elementos internos */
+    padding: 20px; /* Espaciado interno */
+    box-sizing: border-box; /* Incluye el padding dentro del ancho */
+  }
+
+

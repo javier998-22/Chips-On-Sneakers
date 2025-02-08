@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap');
 
 .Card1{
-    max-width: 1700px;
+    width: 100%;
     margin: 2% auto;
 }
 
@@ -38,26 +38,17 @@
 
 .card-container {
     display: flex;
-
-    gap: 20px;
+    gap: 38px;
     flex-wrap: wrap;
 }
 .product-card {
     user-select: none;
     width: 200px;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     font-family: Arial, sans-serif;
     transition: transform 0.2s ease-in-out;
 }
 
-.product-card:hover {
-    transform: translateY(-5px);
-}
-
-/* Contenedor de la imagen */
 .product-image-container {
     position: relative;
     background-color: #f9f9f9;
@@ -69,7 +60,6 @@
     display: block;
 }
 
-/* Botón favorito */
 .favorite-button {
     position: absolute;
     top: 8px;
@@ -86,7 +76,6 @@
     color: #e63946;
 }
 
-/* Detalles del producto */
 .product-details {
     padding: 10px;
 }

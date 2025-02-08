@@ -16,6 +16,9 @@ export const ProductsMain = () => {
         { marca: "nike", modelo: "3", stock : 0, precio: "150"},
         { marca: "nike", modelo: "4", stock : 5, precio: "500"},
         { marca: "nike", modelo: "5", stock : 3, precio: "400"},
+        { marca: "nike", modelo: "5", stock : 3, precio: "400"},
+        { marca: "nike", modelo: "5", stock : 3, precio: "400"},
+        { marca: "nike", modelo: "5", stock : 3, precio: "400"},
         ];
     
 
@@ -42,6 +45,7 @@ export const ProductsMain = () => {
             </div>
           ))}
         </div>
+        
       </div>
     );
     

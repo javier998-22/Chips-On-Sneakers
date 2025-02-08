@@ -4,6 +4,7 @@ import './../Styles/NavCategories.css';
 
 export const NavCategories = () => {
     const [activeMenu, setActiveMenu] = useState(null);
+    
     const CategoriasNav = [
         { nombre: "Ofertas", marca : ["nike", "adidas", "puma", "crocs", "supreme", "skechers", "Converse"] , estado:"activado" },
         { nombre: "Nuevos", marca : ["nike", "adidas", "puma", "crocs", "supreme", "skechers", "Converse"] , estado:"activado" },
